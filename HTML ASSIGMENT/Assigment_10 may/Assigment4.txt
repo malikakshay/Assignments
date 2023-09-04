@@ -1,0 +1,19 @@
+
+     list any 3 ways which help us in improving the accessibility of HTML:
+
+    HTML Accessibility
+
+    Always write HTML code with accessibility in mind!
+
+        Provide the user a good way to navigate and interact with your site. Make your HTML code as semantic as possible.
+        
+        HTML Accessibility. Always write HTML code with accessibility in mind! ...
+    Semantic HTML. Semantic HTML means using correct HTML elements for their correct purpose as much as possible. ...
+        
+        Headings Are Important. ...
+        
+            Alternative Text. ...
+        
+        Declare the Language. ...
+            
+        Use Clear Language.....

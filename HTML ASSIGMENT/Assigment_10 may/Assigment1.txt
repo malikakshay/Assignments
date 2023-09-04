@@ -1,0 +1,18 @@
+ List oF the featUres of HTML5:
+    
+        Video and Audio Features.
+        
+        Header and Footer.
+        
+        Input tag kinds have been expanded.
+        
+        Figure and figcaption.
+        
+        Placeholders.
+        
+        Preload Videos.
+        
+        Controlling the display.
+        
+        Regular Expressions.
+    

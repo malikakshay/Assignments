@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(49, 47, 47);
+        }
+        h1{
+            text-align: center;
+            color: rgba(196, 33, 133, 0.726);
+        }
+        .content{
+            display: flex;
+            margin: 18%;
+            margin-top: 18px;
+            padding: 10px;
+            column-gap: 20px;
+            height: 40%px;
+            width: 60%;
+        }
+        .html{
+            border: 4px solid black;
+            background-color: rgb(12, 228, 228);
+          
+            
+        }
+        .css{
+            border: 4px solid black;
+            background-color: rgb(201, 16, 155); 
+        }
+        .java{
+            border: 4px solid black;
+            background-color: rgb(75, 201, 16); 
+        }
+        .java img{
+            height: 130px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Full Stack Web Devlopement</h1>
+    <div class="content">
+      <div class="html"><h2>HTML</h2>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAACPCAMAAAD0vXihAAAAflBMVEX////kTSbjSB3kSiHqfWriPAD2z8nmYUPiNgDpe2bjRRj31tH4x7/iOQD98/HjQg/++fjxmYnhKwD0wLn87uzmXT70sKTlUy/0tKnunpH64NzuhHDrcljpdmLpZkn0vLPxqJvuiXjgHQDlVzbsjn3oalD96OTfAADmZFDtkYWqU3HLAAAH4klEQVR4nO1cjZZzOhStpFGTIijVqqKj7f3m/V/wIi2GcA7tfNdda/ZaM/0jdiLnNydWq1/84he/QMCOdHPvnuJNSCkNN/HJ3Zt6ZP83XHT3nITcYoJzQksQzgWzeJicXf3vcvJNN/EMUdDQ+iiICcNLXNP/W2TOoRBEwaQNIkR4/guUdFczuGpYFAPFDc3Vf5KMnwYCSeZJSQTpjw3SfmNNIfOgZG32P0HGPlhsOpuKEbMOb5c3MxCzyEiIwHwrmyg25o1NPUbGOXobGyfj/CU2JTjPnPfQiRL2MpsSLHnLEGWg7sOCiOxlNs7FehObEtblxXsWha+IVR8ifOme6fRd9+oJQl+wIAfxmpSrQMVhLp1shnlAELKyeXSO7xHzPthxUXTmEcp+jk5BKJtK5/BOtdOHNXFS6z8gWW1QMUnsI6Wn/lZCdIJidMIRNcgY46WTxRgt/0nw8mvx+JlppPx1nBAJ8abjMmIkuLnbXTm9mTszSIr3Eld62O2ygoJVfEiNc/krQEhcsHSysbksigMOjJ+Kl1tcn5LS0iN1mbTgn9fiXwKZGqxejEZNaMXHEB9dPmUUYYu8pOXg+GgCNYWc8YZKPrvkdq34+PeSRvE/06qoJq2kBsuHJJgpBCjCko9j2+U4xCTI10WTxzAI84qPbB/LB6UWI8BVFs2hMac8Lih8cUrzZ9TnTOCjcfiOxVP4aETy0So+u+LvvnvyyY1S8gE+8SCPB0wDaKLks3WPBwWf7Gu1Wtd80sPhkEJq1QDiMnsDtVDJl2edFXz2XmR+mk8+FTSgOboZj1wPoLv80D8fDz7nNh8rzo3vfEC7A3iLsFUXjm/vGflwfCcmxfjcfftKCj6Rb2eisCCp7d+9i+1XcKDxKbTiGJ097PTQTRCExVU2wab6HBQfn6/F1zQv3pAwkADvfiHzI9kPH3F+YZlp66X3Kt/QBxDNbYbzQ+nPOmFqWOkgH8gkk3kYb5QGQ3R0QLjC03oOTuF4s4Ouojuumoc7AgAYdu6qT/MB4aT5TD450K6mntGQqaDhvEypHwLTcsBonEGDPC83EUHNkvOsbmh0O4vPFmxXOfAmaLr4vCSpCSYfhaphFzalw5prDCncsErCEP73vMwN7DOQpH+W7UFnaWJWnmR1hFN+Xt8LAh3DgWGFAU8ElcQjzuLrWXzWcDJd0VNY+0jnVELbAAhOz0OdG6LlngayE9hXoXnNh/Jxk06b6NwBzEXVctKdQBFghCuImk8M9bmZ+w4m0dZLS+uYFZNGDE7Q4Y0bihDcYmp2fQ4T4xp69+fhoAw3Xt8dw8fqChjCky/EsjZgB+hwq+7wFlYkCq8eIe7tXjy0FTeG4NV8UCPfE3hwQlS9qA2GXl2ErLf6EOqpBg5l1bFThw+URpC9qIVmWx1OMCk3hLlQJBY2mIWcphdSPVTRMoQLpqdk0zkLdMbk9Z+H3ysfnd4Q69gIxV+6ZJ2zUAlncnseLtU5ze8rEAhzUcazc/jQOuHnSAWNyG85CEM0m08Ta68rPgbMx4eCXjUf1PyhjZmRs5TE6w8l4lpzRsiWO3xQ8qVp9WUe+pNwNbz6wC2q3Z58ofRPK9QG7ItX31goKSDR0z8o/ayxxmCMWwGvbthErev19DPKfmmsttqAlTTqhlHmom+/UPa9lVAf9yIoqRvOcB3t2neUFdZEnTh1/hkw7JJPMz2/UHx6/g/KP2xHGPpWCV3qycY//8A13PUPUf5zy2AMwa4u35qeKHPR958x8YVCjfYgF89akSzSEPUMM8oMt+T4LtF1OKS6aRX6YLxnVQYIJ/CfDf9Pr8BnNyW0k4u6TSbkE9OsIj5FxO9aW+9K/r3MjUxmsN3zs48aH6OfYkWFSa0IQyos0dUb0jvl06ILVX4DtZ7XCmNSyaebgnnkjGvaOkavqfI/uAnUTAyZ3uvljq8Vn0Z8U4zeVyZy4Pyh9i3CqD7T8Kg3yUhfP1ZqrFlNxUUXyvwhnF8twL+ehz8UKBUiOFclvPf0HAhZhkKDej5cEep5ILGN0UBNxOXXaRRKmJdcE4+R+ptmPlwwjSrzzyiJJx/Po51va2WEt69L/9RHfSD4DOTnofWL6rpxfSf+DF+p8fZsMFE0vH4Bre9U5yb1uV+BuiCaMhbUs95HmMWh9R2Mq9uOAEtpMti3G0U4M/KsJXF3RLJuuFQKESp1ypqcnXtjlqRELHZzd98NbIS4XcPLaoj1U9ZbU7GjNNa44Fqc9rembOEWR9ZPEevLCstXDpO+15WpDh2U2bH1ZYRXP9IbFeARH1t/R9QnjJ8+p4Oj54NrMRPXVEAjDawZgfUtvUByHFDYC9W3gEYDjjC+AYouoPofOLFA9xG2kNGJMmi0wfoosH5MY4Z2TeE83f1w1QywXguxYg0XGlMutPy4HdYb/tbNNcROKFTZMVB/+OQkjPCyVw1TlF1CA1UejKs/BOozW5S4sMRVb3OKzGvxHXaLGK4+E6hf7XASVn4+ynaj4zm0JtRN4+v6x+p7+5SI8Ng1PTFj2sYafH3veP2zEpxN3QE1pf55afXhi6ufX9z+gsXtv1jc/pTF7d9Z3P6mxe3/Wtz+uMXtH1zc/srV0vafrha3P3dx+5cLROcl7e8usaz976vFPR+gxKKen1BiYc+XKLGo529UmPJ8kr/0GJdFPb/lgSU936bmtKDn//ziF7/43+Ff3yWXKimh/KIAAAAASUVORK5CYII=" alt="html image">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ratione temporibus magnam culpa eaque dicta asperiores cumque exercitationem itaque, voluptates quod nobis sunt. Eveniet quasi placeat atque veritatis sint quis. Illum sed quod provident, dolorum dignissimos consequuntur repudiandae? Sed vitae quam totam iusto, quaerat, veritatis corporis, accusamus perferendis fuga quo dicta at officia rem! Incidunt quod officia corporis qui laborum iste cum nostrum praesentium esse optio, ipsam illo eius ex dolorem aperiam quasi doloribus amet sed tempore facere. Minus quia accusamus explicabo molestiae veritatis nulla! Beatae facere a consequuntur? Id cum delectus eveniet quas voluptatem suscipit, earum dicta officia aspernatur.</p>
+    </div>
+    <div class="css">
+       <h2>CSS</h2> 
+       <img src="data:image/png;base64,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" alt="css">
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut optio iste doloribus ad voluptas repudiandae aliquid corporis quidem aperiam, hic autem perspiciatis eveniet rem saepe temporibus iusto sint dolorum, sunt cumque repellat aspernatur. Culpa suscipit aut, perspiciatis repellendus dicta est deleniti aperiam cum, tenetur dolorem adipisci. Dolorem numquam id quas in perferendis neque autem beatae, magnam, necessitatibus corporis delectus voluptates. Voluptate aliquid nobis dolorum nemo eligendi totam facere cumque repellendus at illo? Quam, esse obcaecati! Quas temporibus saepe tempora eligendi fugit cum soluta nesciunt fugiat dolore iure explicabo in ut sed necessitatibus praesentium, vero repellendus tempore cumque, assumenda ipsum. Tempora!</p>
+    </div>
+    <div class="java">
+        <h2>JAVA script</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5jL3jOTx7Y3EjANcJQU-oHF6QhbO5PJKqRTx0jJUASQ&usqp=CAU&ec=48665699" alt="java">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni id totam, fuga, sit autem distinctio libero quia perferendis, iure hic sapiente aperiam debitis! Praesentium consequatur deserunt enim dolores, aspernatur nemo tenetur. Molestias nobis fugiat sunt nisi neque recusandae veritatis ea consequuntur non, magni, inventore ratione provident voluptatibus possimus odit debitis ab vel pariatur magnam facilis? Nobis iure assumenda alias recusandae labore asperiores. Excepturi, ea enim recusandae illo iusto eum. Unde praesentium incidunt ab nihil accusantium sit reprehenderit totam eius. Nulla cum, eum, itaque quibusdam vitae eligendi nisi culpa consectetur maiores fugit quam magnam veniam quod velit modi totam iste ea!</p>
+    </div> 
+    </div>
+</body>
+</html>

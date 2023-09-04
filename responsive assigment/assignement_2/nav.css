@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    background-color: #262525;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.navbar {
+    background-color: #262525;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+
+.nav-menu {
+    background-color: #262525;
+    color: white;
+    display: flex;
+    justify-content: center; /* Center align the nav menu */
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+    flex-grow: 1; /* Allow the nav menu to expand and fill the remaining space */
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: white;
+    padding: 0.5rem 1rem;
+    display: block;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #482ff7;
+}
+
+.login a .nav-link:hover {
+    color: black;
+    background-color: white
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
+    margin-right: auto; /* Align the logo to the left */
+}
+
+.login {
+    margin-left: auto; /* Push the login button to the right */
+}
+
+.login a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: blue;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.content h1 {
+    margin-top: 30px;
+}
+
+/* body part start over here... */
+.image-container .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-container .container img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .image-container .container {
+      flex-direction: column;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: grey;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .login {
+        display: none; /* Hide the login button on mobile */
+    }
+}

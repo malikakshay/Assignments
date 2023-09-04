@@ -1,0 +1,10 @@
+
+      list any 5 semantic tags in HTML along with their descriptions:
+     
+        
+         Tag                           Descriptions  
+
+       <mark>                   Defines marked/highlighted text
+       <nav>                    Defines navigation links
+       <section>                Defines a section in a document
+       <summary>                Defines a visible heading for a <details> element

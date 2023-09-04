@@ -1,0 +1,6 @@
+
+      Write a short note on the tab index: 
+
+    Tab Index note;
+
+    The tabindex attribute specifies the tab order of an element (when the "tab" button is used for navigating). The tabindex attribute can be used on any HTML element (it will validate on any HTML element. However, it is not necessarily useful).
